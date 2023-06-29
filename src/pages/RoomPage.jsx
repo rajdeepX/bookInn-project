@@ -86,7 +86,6 @@ const RoomPage = () => {
 
   return (
     <div>
-      <Navbar />
       <div className="room-detail-container">
         <div className="header">
           <h2>Double room in lovely apartment</h2>
@@ -270,7 +269,6 @@ const RoomPage = () => {
           </div>
         </div>
       </div>
-      <h1></h1>
     </div>
   );
 };

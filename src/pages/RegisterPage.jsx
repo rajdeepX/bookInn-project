@@ -31,7 +31,7 @@ const RegisterPage = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="form">
         <h2>Register</h2>
         <form onSubmit={register}>

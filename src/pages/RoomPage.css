@@ -21,6 +21,16 @@ font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .room-detail-container {
+    max-width: 400px;
+  }
+  .brief {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
 .brief {
   display: flex;
   align-items: center;
@@ -111,6 +121,13 @@ font-family: 'Roboto', sans-serif;
   justify-content: space-between;
   gap: 5rem;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .room-info {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .about-room {
@@ -233,4 +250,13 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   margin: 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-room {
+    width: 100%;
+  }
+  .room-price {
+    width: 100%;
+  }
 }

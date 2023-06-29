@@ -11,7 +11,7 @@ const HomePage = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Demo /> */}
       <FilterRoom />
       <div className="card-container">

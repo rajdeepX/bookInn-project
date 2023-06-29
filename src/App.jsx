@@ -10,6 +10,7 @@ import AccountPage from "./pages/AccountPage";
 import SavedRooms from "./pages/SavedRooms";
 import BookingPage from "./pages/BookingPage";
 import ProfilePage from "./pages/ProfilePage";
+import Navbar from "./components/Navbar";
 
 axios.defaults.baseURL = "http://localhost:3000";
 axios.defaults.withCredentials = true;
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <UserContextProvider>
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />

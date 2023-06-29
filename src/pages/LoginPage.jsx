@@ -35,7 +35,6 @@ const LoginPage = () => {
 
   return (
     <>
-      <Navbar />
       <div className="form">
         <h2>Login</h2>
         <form onSubmit={login}>
