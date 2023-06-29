@@ -1,0 +1,19 @@
+.account-container {
+  width: 100vw;
+  padding: 0 200px;
+}
+
+.account-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 40px;
+}
+
+.active {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #ff385c;
+  padding: 5px 20px;
+}

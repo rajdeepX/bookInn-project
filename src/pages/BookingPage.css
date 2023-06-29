@@ -1,0 +1,39 @@
+.booking-container {
+  /* width: 50vw; */
+  height: 100px;
+  border: 1px solid #ff385c;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.booking-img-container {
+  height: 100%;
+  width: 150px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.booking-img-container img {
+  width: 100%;
+}
+
+.booking-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.booking-cancel button {
+  padding: 7px 12px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+}

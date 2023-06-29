@@ -1,0 +1,22 @@
+.filter-container {
+  max-width: 1020px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  /* align-items: center; */
+  margin: 10px auto;
+  padding: 20px 40px;
+}
+
+.filter-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.price {
+  flex-direction: column;
+}
+.superhost {
+  height: fit-content;
+  /* align-items: flex-start; */
+}
