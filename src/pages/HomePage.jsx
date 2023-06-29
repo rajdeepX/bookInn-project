@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import UserContext from "../UserContext";
 import Card from "../components/Card";
 import FilterRoom from "../components/FilterRoom";
+import Demo from "../components/Demo";
 
 const HomePage = () => {
   const { userInfo } = useContext(UserContext);
@@ -11,6 +12,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
+      {/* <Demo /> */}
       <FilterRoom />
       <div className="card-container">
         <Card />

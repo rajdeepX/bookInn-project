@@ -17,6 +17,7 @@ export const UserContextProvider = ({ children }) => {
   const [searchValue, setSearchValue] = useState("");
   const [superhost, setSuperhost] = useState(false);
   const [savedRooms, setSavedRooms] = useState([]);
+  const [isClicked, setIsClicked] = useState(false);
 
   const fetchUser = async () => {
     if (!userInfo) {
@@ -129,6 +130,8 @@ export const UserContextProvider = ({ children }) => {
         handleSuperhost,
         savedRooms,
         setSavedRooms,
+        isClicked,
+        setIsClicked,
       }}
     >
       {children}
