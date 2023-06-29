@@ -162,12 +162,6 @@
   display: block;
 }
 
-@media screen and (min-width: 768px) {
-  .user {
-    display: none;
-  }
-}
-
 .user {
   display: flex;
   /* gap: 0.5rem; */
@@ -201,4 +195,10 @@
 
 .show-search {
   display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .user {
+    display: none;
+  }
 }
