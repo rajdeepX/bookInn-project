@@ -17,3 +17,23 @@
   background-color: #ff385c;
   padding: 5px 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .account-container {
+    width: 100vw;
+    padding: 20px;
+  }
+  .account-nav {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .account-nav a {
+    text-align: center;
+    /* width: 200px; */
+  }
+}

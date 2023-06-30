@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 import UserContext from "../UserContext";
-import Navbar from "../components/Navbar";
 import { NavLink, Outlet, useParams } from "react-router-dom";
 import "./AccountPage.css";
 import axios from "axios";
@@ -18,7 +17,6 @@ const AccountPage = () => {
 
   return (
     <>
-      <Navbar />
       <div className="account-container">
         <nav className="account-nav">
           <NavLink to={"/account/profile"} activeclassname="active">
