@@ -7,7 +7,6 @@ import { HiPaperAirplane } from "react-icons/hi";
 import { FiMenu } from "react-icons/fi";
 import { BiSolidUserCircle } from "react-icons/bi";
 import { HiMagnifyingGlassCircle } from "react-icons/hi2";
-import MiniSearchBar from "./MiniSearchBar";
 
 const Navbar = () => {
   const { searchValue, handleChange, roomFilters } = useContext(UserContext);
@@ -59,14 +58,6 @@ const Navbar = () => {
 
         <div className="user">
           <div className="user-search">
-            {/* <input
-              type="search"
-              placeholder="find your stay"
-              className={
-                isClicked ? "search-input show-search" : "search-input"
-              }
-            /> */}
-
             <input
               type="search"
               name="search"
