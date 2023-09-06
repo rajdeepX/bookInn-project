@@ -50,9 +50,9 @@ const RoomPage = () => {
   // for calender date
 
   const date = new Date();
-  const formatDate = date.toISOString().split("T", 1)[0];
+  const minDate = date.toISOString().split("T", 1)[0];
 
-  const [minDate, setMinDate] = useState(formatDate);
+  // const minDate = formatDate;
 
   const checkInDate = new Date(checkIn);
 

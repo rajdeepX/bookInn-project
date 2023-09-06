@@ -30,9 +30,6 @@ function App() {
             <Route path="bookings" element={<BookingPage />} />
             <Route path="saved" element={<SavedRooms />} />
           </Route>
-
-          {/* <Route path="/account/:bookings" element={<AccountPage />} />
-          <Route path="/account/:accommodations" element={<AccountPage />} /> */}
         </Routes>
       </UserContextProvider>
     </>

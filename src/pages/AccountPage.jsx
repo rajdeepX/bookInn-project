@@ -1,20 +1,7 @@
-import { useContext, useState } from "react";
-import UserContext from "../UserContext";
-import { NavLink, Outlet, useParams } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./AccountPage.css";
-import axios from "axios";
 
 const AccountPage = () => {
-  const { subpage } = useParams();
-  // console.log(subpage);
-
-  const { userInfo } = useContext(UserContext);
-  // console.log(userInfo);
-
-  const logout = async () => {
-    await axios.post("/logout");
-  };
-
   return (
     <>
       <div className="account-container">
