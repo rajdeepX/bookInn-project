@@ -498,7 +498,7 @@ export default [
       slug: "buan-stay",
       price: 9100,
       pets: true,
-      country: "Thiland",
+      country: "Thailand",
       city: "Bangkok",
       address: "Bangkok, Krung Thep Maha Nakhon, Thailand",
       rating: 4.6,
